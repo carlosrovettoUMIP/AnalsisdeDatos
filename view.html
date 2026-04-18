@@ -171,14 +171,14 @@
     <div class="nav-group">
       <p class="nav-group-title">Módulos</p>
       <ul class="nav-links">
-        <li><a href="?file=01_Modulos/M1_Analisis_vs_Reportes.md" data-file="01_Modulos/M1_Analisis_vs_Reportes.md">M1. Análisis vs Reportes</a></li>
-        <li><a href="?file=01_Modulos/M2_Proceso_Analisis.md" data-file="01_Modulos/M2_Proceso_Analisis.md">M2. Proceso de Análisis</a></li>
-        <li><a href="?file=01_Modulos/M3_Tipos_Analisis.md" data-file="01_Modulos/M3_Tipos_Analisis.md">M3. Tipos de Análisis</a></li>
-        <li><a href="?file=01_Modulos/M4_Mineria_Datos.md" data-file="01_Modulos/M4_Mineria_Datos.md">M4. Minería de Datos</a></li>
-        <li><a href="?file=01_Modulos/M5_Calidad_Dato.md" data-file="01_Modulos/M5_Calidad_Dato.md">M5. Calidad del Dato</a></li>
-        <li><a href="?file=01_Modulos/M6_Aplicaciones_CII.md" data-file="01_Modulos/M6_Aplicaciones_CII.md">M6. Aplicaciones CII</a></li>
-        <li><a href="?file=01_Modulos/M7_Competencias.md" data-file="01_Modulos/M7_Competencias.md">M7. Competencias</a></li>
-        <li><a href="?file=01_Modulos/M8_Big_Data_PySpark.md" data-file="01_Modulos/M8_Big_Data_PySpark.md">M8. Big Data & PySpark</a></li>
+        <li><a href="?file=01_modulos/m1.md" data-file="01_modulos/m1.md">M1. Análisis vs Reportes</a></li>
+        <li><a href="?file=01_modulos/m2.md" data-file="01_modulos/m2.md">M2. Proceso de Análisis</a></li>
+        <li><a href="?file=01_modulos/m3.md" data-file="01_modulos/m3.md">M3. Tipos de Análisis</a></li>
+        <li><a href="?file=01_modulos/m4.md" data-file="01_modulos/m4.md">M4. Minería de Datos</a></li>
+        <li><a href="?file=01_modulos/m5.md" data-file="01_modulos/m5.md">M5. Calidad del Dato</a></li>
+        <li><a href="?file=01_modulos/m6.md" data-file="01_modulos/m6.md">M6. Aplicaciones CII</a></li>
+        <li><a href="?file=01_modulos/m7.md" data-file="01_modulos/m7.md">M7. Competencias</a></li>
+        <li><a href="?file=01_modulos/m8.md" data-file="01_modulos/m8.md">M8. Big Data & PySpark</a></li>
       </ul>
     </div>
 
@@ -257,14 +257,14 @@
         // 1. Manejar Frontmatter
         text = text.replace(/^---[\s\S]*?---/, '');
 
-        // 2. Convertir WikiLinks [[File|Label]]
+        // 2. Convertir WikiLinks [[File|Label]] a links del visor
         text = text.replace(/\[\[([^|\]]+)\|([^\]]+)\]\]/g, (match, targetFile, label) => {
           if (targetFile === 'Inicio') {
             return `<a href="?file=Inicio.md" class="view-link">${label}</a>`;
-          } else if (targetFile.startsWith('M')) {
-            // Limpiar posibles espacios en blanco en el nombre del archivo
-            const cleanTarget = targetFile.trim();
-            return `<a href="?file=01_Modulos/${cleanTarget}.md" class="view-link">${label}</a>`;
+          } else if (targetFile.startsWith('m') || targetFile.startsWith('M')) {
+            // Manejar tanto m1 como M1_...
+            const cleanTarget = targetFile.trim().toLowerCase();
+            return `<a href="?file=01_modulos/${cleanTarget}.md" class="view-link">${label}</a>`;
           }
           return match;
         });
