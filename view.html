@@ -244,19 +244,27 @@
       });
 
       try {
+        console.log('Intentando cargar:', fileName);
         const response = await fetch(fileName);
-        if (!response.ok) throw new Error('No se pudo cargar el archivo: ' + fileName);
+        
+        if (!response.ok) {
+          throw new Error(`Error ${response.status}: No se pudo encontrar el archivo "${fileName}". Asegúrate de que el nombre sea exacto.`);
+        }
+        
         let text = await response.text();
+        console.log('Contenido cargado con éxito');
 
-        // 1. Manejar Frontmatter (eliminarlo si existe)
+        // 1. Manejar Frontmatter
         text = text.replace(/^---[\s\S]*?---/, '');
 
-        // 2. Convertir WikiLinks [[File|Label]] a links del visor
+        // 2. Convertir WikiLinks [[File|Label]]
         text = text.replace(/\[\[([^|\]]+)\|([^\]]+)\]\]/g, (match, targetFile, label) => {
           if (targetFile === 'Inicio') {
             return `<a href="?file=Inicio.md" class="view-link">${label}</a>`;
           } else if (targetFile.startsWith('M')) {
-            return `<a href="?file=01_Modulos/${targetFile}.md" class="view-link">${label}</a>`;
+            // Limpiar posibles espacios en blanco en el nombre del archivo
+            const cleanTarget = targetFile.trim();
+            return `<a href="?file=01_Modulos/${cleanTarget}.md" class="view-link">${label}</a>`;
           }
           return match;
         });

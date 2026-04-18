@@ -9,7 +9,7 @@ preparado_por: Jcenteno
 
 [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlosrovettoUMIP/AnalsisdeDatos/blob/main/03_Notebooks/M6_Eficiencia_CII.ipynb)
 
-> [!info]] Objetivo
+> [!info] Objetivo
 > Aplicar análisis de datos a casos reales del sector marítimo bajo regulación IMO 2023.
 
 ---

@@ -9,7 +9,7 @@ preparado_por: Jcenteno
 
 [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlosrovettoUMIP/AnalsisdeDatos/blob/main/03_Notebooks/M4_Mineria_Flota.ipynb)
 
-> [!info]] Objetivo
+> [!info] Objetivo
 > Aplicar técnicas de Machine Learning (clustering, clasificación, detección de anomalías) a datos de flota naviera.
 
 ## 🤖 Algoritmos Aplicados

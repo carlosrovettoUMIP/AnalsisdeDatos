@@ -9,7 +9,7 @@ preparado_por: Jcenteno
 
 [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlosrovettoUMIP/AnalsisdeDatos/blob/main/03_Notebooks/M5_Auditoria_Calidad.ipynb)
 
-> [!info]] Objetivo
+> [!info] Objetivo
 > Evaluar la calidad del dato en organizaciones portuarias y detectar sesgos en registros de banderas.
 
 ---

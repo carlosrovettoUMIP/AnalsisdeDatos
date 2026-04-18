@@ -9,7 +9,7 @@ preparado_por: Jcenteno
 
 [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlosrovettoUMIP/AnalsisdeDatos/blob/main/03_Notebooks/M7_Proyecto_Final.ipynb)
 
-> [!info]] Objetivo
+> [!info] Objetivo
 > Consolidar el stack técnico y las habilidades de comunicación del analista de datos marítimo.
 
 ---

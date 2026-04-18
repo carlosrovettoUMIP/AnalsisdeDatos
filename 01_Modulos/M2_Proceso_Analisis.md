@@ -2,14 +2,14 @@
 modulo: 2
 titulo: Proceso de Análisis de Datos
 nivel: Básico-Intermedio
-tags: [proceso, limpieza, exploration, AIS]]
+tags: [proceso, limpieza, exploration, AIS]
 preparado_por: Jcenteno
 ---
 # Módulo 2 — Proceso de Análisis de Datos
 
 [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlosrovettoUMIP/AnalsisdeDatos/blob/main/03_Notebooks/M2_Limpieza_AIS.ipynb)
 
-> [!info]] Objetivo
+> [!info] Objetivo
 > Dominar las 5 fases del proceso analítico aplicadas a datos de señales AIS del Canal de Panamá.
 
 ## 🔄 El Ciclo Analítico

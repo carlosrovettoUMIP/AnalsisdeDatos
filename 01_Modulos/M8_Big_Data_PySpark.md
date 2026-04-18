@@ -9,7 +9,7 @@ preparado_por: Jcenteno
 
 [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlosrovettoUMIP/AnalsisdeDatos/blob/main/03_Notebooks/M8_Spark_AIS.ipynb)
 
-> [!info]] Objetivo
+> [!info] Objetivo
 > Procesar volúmenes masivos de datos AIS con PySpark en el entorno de Google Colab.
 
 ---

@@ -9,7 +9,7 @@ preparado_por: Jcenteno
 
 [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlosrovettoUMIP/AnalsisdeDatos/blob/main/03_Notebooks/M1_Analisis_Puerto.ipynb)
 
-> [!info]] Objetivo
+> [!info] Objetivo
 > Distinguir conceptualmente entre reportar e interpretar datos en el contexto del sector portuario panameño.
 
 ## 📌 Conceptos Clave

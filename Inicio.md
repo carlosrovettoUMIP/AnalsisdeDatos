@@ -56,5 +56,5 @@ preparado_por: Jcenteno
 - [[Manual_Python_Maritimo\|🐍 Manual de Python]]
 
 ---
-> [!info]] Tip
+> [!info] Tip
 > Cada módulo incluye un botón para abrir el cuaderno directamente en **Google Colab**.

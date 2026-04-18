@@ -9,7 +9,7 @@ preparado_por: Jcenteno
 
 [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlosrovettoUMIP/AnalsisdeDatos/blob/main/03_Notebooks/M3_Analisis_Corozal.ipynb)
 
-> [!info]] Objetivo
+> [!info] Objetivo
 > Aplicar los 4 tipos de análisis al dataset de operaciones de contenedores de Terminal Corozal.
 
 ## 🧭 Los 4 Horizontes
