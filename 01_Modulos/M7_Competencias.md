@@ -2,14 +2,14 @@
 modulo: 7
 titulo: Competencias Requeridas
 nivel: Integrador
-tags: [soft-skills, stack-tecnico, carrera]
+tags: [soft-skills, stack-tecnico, carrera]]
 preparado_por: Jcenteno
 ---
 # Módulo 7 — Competencias Requeridas
 
 [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlosrovettoUMIP/AnalsisdeDatos/blob/main/03_Notebooks/M7_Proyecto_Final.ipynb)
 
-> [!info] Objetivo
+> [!info]] Objetivo
 > Consolidar el stack técnico y las habilidades de comunicación del analista de datos marítimo.
 
 ---
@@ -33,4 +33,4 @@ preparado_por: Jcenteno
 - [📓 Cuaderno en Formato Local: M7_Proyecto_Final.ipynb](03_Notebooks/M7_Proyecto_Final.ipynb)
 
 ---
-[M6 Aplicaciones_CII|⬅️ Anterior] | [Inicio|🏠 Inicio] | [M8 Big_Data_PySpark|Siguiente ➡️]
+[[M6_Aplicaciones_CII|⬅️ Anterior]] | [[Inicio|🏠 Inicio]] | [[M8_Big_Data_PySpark|Siguiente ➡️]]

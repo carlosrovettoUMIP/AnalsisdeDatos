@@ -2,14 +2,14 @@
 modulo: 1
 titulo: Análisis de Datos vs Reportes
 nivel: Introductorio
-tags: [datos, reportes, introduccion]
+tags: [datos, reportes, introduccion]]
 preparado_por: Jcenteno
 ---
 # Módulo 1 — Análisis de Datos vs Reportes
 
 [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlosrovettoUMIP/AnalsisdeDatos/blob/main/03_Notebooks/M1_Analisis_Puerto.ipynb)
 
-> [!info] Objetivo
+> [!info]] Objetivo
 > Distinguir conceptualmente entre reportar e interpretar datos en el contexto del sector portuario panameño.
 
 ## 📌 Conceptos Clave
@@ -42,4 +42,4 @@ preparado_por: Jcenteno
 - [📓 Cuaderno en Formato Local: M1_Analisis_Puerto.ipynb](03_Notebooks/M1_Analisis_Puerto.ipynb)
 
 ---
-[Inicio|🏠 Volver al Inicio] | [M2 Proceso_Analisis|Siguiente Módulo ➡️]
+[[Inicio|🏠 Volver al Inicio]] | [[M2_Proceso_Analisis|Siguiente Módulo ➡️]]

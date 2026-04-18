@@ -2,14 +2,14 @@
 modulo: 4
 titulo: Minería de Datos
 nivel: Intermedio-Avanzado
-tags: [machine-learning, clustering, arboles-decision]
+tags: [machine-learning, clustering, arboles-decision]]
 preparado_por: Jcenteno
 ---
 # Módulo 4 — Minería de Datos
 
 [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlosrovettoUMIP/AnalsisdeDatos/blob/main/03_Notebooks/M4_Mineria_Flota.ipynb)
 
-> [!info] Objetivo
+> [!info]] Objetivo
 > Aplicar técnicas de Machine Learning (clustering, clasificación, detección de anomalías) a datos de flota naviera.
 
 ## 🤖 Algoritmos Aplicados
@@ -39,4 +39,4 @@ preparado_por: Jcenteno
 - [📓 Cuaderno en Formato Local: M4_Mineria_Flota.ipynb](03_Notebooks/M4_Mineria_Flota.ipynb)
 
 ---
-[M3 Tipos_Analisis|⬅️ Anterior] | [Inicio|🏠 Inicio] | [M5 Calidad_Dato|Siguiente ➡️]
+[[M3_Tipos_Analisis|⬅️ Anterior]] | [[Inicio|🏠 Inicio]] | [[M5_Calidad_Dato|Siguiente ➡️]]

@@ -9,11 +9,11 @@ El tiempo de vuelta (Turnaround Time) es crítico en el puerto.
 import pandas as pd
 
 # Convertir a datetime
-df['arribo'] = pd.to_datetime(df['fecha_arribo'])
-df['zarpe'] = pd.to_datetime(df['fecha_zarpe'])
+df['arribo']] = pd.to_datetime(df['fecha_arribo']])
+df['zarpe']] = pd.to_datetime(df['fecha_zarpe']])
 
 # Calcular estadía en horas
-df['estadia_h'] = (df['zarpe'] - df['arribo']).dt.total_seconds() / 3600
+df['estadia_h']] = (df['zarpe']] - df['arribo']]).dt.total_seconds() / 3600
 ```
 
 ## 2. Análisis de Eficiencia (CII)
@@ -25,7 +25,7 @@ def calcular_cii(consumo_ton, dwt, distancia_nm):
     co2 = consumo_ton * 3.114
     return (co2 * 1e6) / (dwt * distancia_nm)
 
-df['CII'] = df.apply(lambda x: calcular_cii(x.consumo, x.capacidad, x.distancia), axis=1)
+df['CII']] = df.apply(lambda x: calcular_cii(x.consumo, x.capacidad, x.distancia), axis=1)
 ```
 
 ## 3. Visualización con Plotly
@@ -38,4 +38,4 @@ fig.show()
 ```
 
 ---
-[Inicio|🏠 Volver al Inicio]
+[[Inicio|🏠 Volver al Inicio]]

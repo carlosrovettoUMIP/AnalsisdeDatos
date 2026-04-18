@@ -2,14 +2,14 @@
 modulo: 3
 titulo: Tipos de Análisis de Datos
 nivel: Intermedio
-tags: [estadistica, prediccion, optimizacion]
+tags: [estadistica, prediccion, optimizacion]]
 preparado_por: Jcenteno
 ---
 # Módulo 3 — Tipos de Análisis de Datos
 
 [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlosrovettoUMIP/AnalsisdeDatos/blob/main/03_Notebooks/M3_Analisis_Corozal.ipynb)
 
-> [!info] Objetivo
+> [!info]] Objetivo
 > Aplicar los 4 tipos de análisis al dataset de operaciones de contenedores de Terminal Corozal.
 
 ## 🧭 Los 4 Horizontes
@@ -41,4 +41,4 @@ preparado_por: Jcenteno
 - [📓 Cuaderno en Formato Local: M3_Analisis_Corozal.ipynb](03_Notebooks/M3_Analisis_Corozal.ipynb)
 
 ---
-[M2 Proceso_Analisis|⬅️ Anterior] | [Inicio|🏠 Inicio] | [M4 Mineria_Datos|Siguiente ➡️]
+[[M2_Proceso_Analisis|⬅️ Anterior]] | [[Inicio|🏠 Inicio]] | [[M4_Mineria_Datos|Siguiente ➡️]]

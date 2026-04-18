@@ -251,8 +251,15 @@
         text = text.replace(/^---[\s\S]*?---/, '');
 
         // 2. Convertir WikiLinks [[File|Label]] a links del visor
-        text = text.replace(/\[\[(M[0-9]_[^|\]]+)\|([^\]]+)\]\]/g, '[$2](view.html?file=01_Modulos/$1.md)');
-        text = text.replace(/\[\[Inicio\|([^\]]+)\]\]/g, '[$1](view.html?file=Inicio.md)');
+        // Soporta [[M1_Nombre|Label]], [[Inicio|Label]], etc.
+        text = text.replace(/\[\[([^|\]]+)\|([^\]]+)\]\]/g, (match, fileName, label) => {
+          if (fileName === 'Inicio') {
+            return `[${label}](view.html?file=Inicio.md)`;
+          } else if (fileName.startsWith('M')) {
+            return `[${label}](view.html?file=01_Modulos/${fileName}.md)`;
+          }
+          return match;
+        });
 
         if (fileName.endsWith('.ipynb')) {
           const githubPath = 'carlosrovettoUMIP/AnalsisdeDatos/blob/main/' + fileName;

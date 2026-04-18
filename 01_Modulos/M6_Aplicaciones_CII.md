@@ -2,14 +2,14 @@
 modulo: 6
 titulo: Aplicaciones Reales (IMO 2023)
 nivel: Avanzado-Aplicado
-tags: [IMO, eficiencia, CII, sustentabilidad]
+tags: [IMO, eficiencia, CII, sustentabilidad]]
 preparado_por: Jcenteno
 ---
 # Módulo 6 — Aplicaciones del Análisis de Datos
 
 [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlosrovettoUMIP/AnalsisdeDatos/blob/main/03_Notebooks/M6_Eficiencia_CII.ipynb)
 
-> [!info] Objetivo
+> [!info]] Objetivo
 > Aplicar análisis de datos a casos reales del sector marítimo bajo regulación IMO 2023.
 
 ---
@@ -33,4 +33,4 @@ preparado_por: Jcenteno
 - [📓 Cuaderno en Formato Local: M6_Eficiencia_CII.ipynb](03_Notebooks/M6_Eficiencia_CII.ipynb)
 
 ---
-[M5 Calidad_Dato|⬅️ Anterior] | [Inicio|🏠 Inicio] | [M7 Competencias|Siguiente ➡️]
+[[M5_Calidad_Dato|⬅️ Anterior]] | [[Inicio|🏠 Inicio]] | [[M7_Competencias|Siguiente ➡️]]

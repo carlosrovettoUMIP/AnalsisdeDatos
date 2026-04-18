@@ -2,14 +2,14 @@
 modulo: 8
 titulo: Big Data Analytics
 nivel: Avanzado
-tags: [big-data, pyspark, spark, escalabilidad]
+tags: [big-data, pyspark, spark, escalabilidad]]
 preparado_por: Jcenteno
 ---
 # Módulo 8 — Big Data Analytics
 
 [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlosrovettoUMIP/AnalsisdeDatos/blob/main/03_Notebooks/M8_Spark_AIS.ipynb)
 
-> [!info] Objetivo
+> [!info]] Objetivo
 > Procesar volúmenes masivos de datos AIS con PySpark en el entorno de Google Colab.
 
 ---
@@ -34,4 +34,4 @@ preparado_por: Jcenteno
 - [📓 Cuaderno en Formato Local: M8_Spark_AIS.ipynb](03_Notebooks/M8_Spark_AIS.ipynb)
 
 ---
-[M7 Competencias|⬅️ Anterior] | [Inicio|🏠 Inicio]
+[[M7_Competencias|⬅️ Anterior]] | [[Inicio|🏠 Inicio]]

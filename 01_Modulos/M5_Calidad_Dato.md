@@ -2,14 +2,14 @@
 modulo: 5
 titulo: Calidad del Dato
 nivel: Conceptual + Aplicado
-tags: [calidad, integridad, sesgo]
+tags: [calidad, integridad, sesgo]]
 preparado_por: Jcenteno
 ---
 # Módulo 5 — Características del Buen Dato
 
 [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlosrovettoUMIP/AnalsisdeDatos/blob/main/03_Notebooks/M5_Auditoria_Calidad.ipynb)
 
-> [!info] Objetivo
+> [!info]] Objetivo
 > Evaluar la calidad del dato en organizaciones portuarias y detectar sesgos en registros de banderas.
 
 ---
@@ -33,4 +33,4 @@ preparado_por: Jcenteno
 - [📓 Cuaderno en Formato Local: M5_Auditoria_Calidad.ipynb](03_Notebooks/M5_Auditoria_Calidad.ipynb)
 
 ---
-[M4 Mineria_Datos|⬅️ Anterior] | [Inicio|🏠 Inicio] | [M6 Aplicaciones_CII|Siguiente ➡️]
+[[M4_Mineria_Datos|⬅️ Anterior]] | [[Inicio|🏠 Inicio]] | [[M6_Aplicaciones_CII|Siguiente ➡️]]
