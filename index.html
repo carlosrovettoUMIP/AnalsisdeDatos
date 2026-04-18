@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Maestría Análisis de Datos · Jorge Centeno</title>
+  <title>Maestría Análisis de Datos · Dr. Carlos Rovetto</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Dashboard de la Maestría en Análisis de Datos Marítimos. Módulos, Notebooks y Recursos.">
   <style>
@@ -235,7 +235,12 @@
   </div>
 
   <div class="container">
-    <a href="../index.html" class="back-link">← Volver al Portfolio</a>
+    <nav style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 60px;">
+      <div class="logo">
+        <span style="color: var(--accent-blue); font-weight: 800; font-size: 24px; letter-spacing: -1px;">MARITIME</span>
+        <span style="color: var(--text-primary); font-weight: 300; font-size: 24px; letter-spacing: -1px;">ANALYSIS</span>
+      </div>
+    </nav>
     
     <header>
       <h1>Maestría Análisis de Datos Marítimos</h1>
@@ -312,7 +317,7 @@
 
     <h2 class="section-title"><span></span> Notebooks (Laboratorios)</h2>
     <div class="grid">
-      <a href="view.html?file=03_Notebooks/M1_Analisis_Puerto.ipynb" class="card">
+      <a href="view.html?file=03_notebooks/m1_analisis_puerto.ipynb" class="card">
         <div class="card-icon">📓</div>
         <div>
           <span class="badge badge-ipynb">Lab 1</span>
@@ -320,7 +325,7 @@
           <p>Exploración inicial de datos portuarios en Python.</p>
         </div>
       </a>
-      <a href="view.html?file=03_Notebooks/M2_Limpieza_AIS.ipynb" class="card">
+      <a href="view.html?file=03_notebooks/m2_limpieza_ais.ipynb" class="card">
         <div class="card-icon">🧹</div>
         <div>
           <span class="badge badge-ipynb">Lab 2</span>
@@ -328,7 +333,7 @@
           <p>Preprocesamiento y limpieza de trayectorias marítimas.</p>
         </div>
       </a>
-      <a href="view.html?file=03_Notebooks/M3_Analisis_Corozal.ipynb" class="card">
+      <a href="view.html?file=03_notebooks/m3_analisis_corozal.ipynb" class="card">
         <div class="card-icon">📍</div>
         <div>
           <span class="badge badge-ipynb">Lab 3</span>
@@ -336,7 +341,7 @@
           <p>Estudio de caso específico sobre datos de Corozal.</p>
         </div>
       </a>
-      <a href="view.html?file=03_Notebooks/M4_Mineria_Flota.ipynb" class="card">
+      <a href="view.html?file=03_notebooks/m4_mineria_flota.ipynb" class="card">
         <div class="card-icon">🧩</div>
         <div>
           <span class="badge badge-ipynb">Lab 4</span>
@@ -344,7 +349,7 @@
           <p>Clustering y patrones de movimiento de barcos.</p>
         </div>
       </a>
-      <a href="view.html?file=03_Notebooks/M5_Auditoria_Calidad.ipynb" class="card">
+      <a href="view.html?file=03_notebooks/m5_auditoria_calidad.ipynb" class="card">
         <div class="card-icon">🧪</div>
         <div>
           <span class="badge badge-ipynb">Lab 5</span>
@@ -352,7 +357,7 @@
           <p>Auditoría y validación de datasets marítimos.</p>
         </div>
       </a>
-      <a href="view.html?file=03_Notebooks/M6_Eficiencia_CII.ipynb" class="card">
+      <a href="view.html?file=03_notebooks/m6_eficiencia_cii.ipynb" class="card">
         <div class="card-icon">📉</div>
         <div>
           <span class="badge badge-ipynb">Lab 6</span>
@@ -360,7 +365,7 @@
           <p>Cálculo y monitoreo de indicadores de eficiencia.</p>
         </div>
       </a>
-      <a href="view.html?file=03_Notebooks/M7_Proyecto_Final.ipynb" class="card">
+      <a href="view.html?file=03_notebooks/m7_proyecto_final.ipynb" class="card">
         <div class="card-icon">🏆</div>
         <div>
           <span class="badge badge-ipynb">Lab 7</span>
@@ -368,7 +373,7 @@
           <p>Integración de todas las fases del proceso analítico.</p>
         </div>
       </a>
-      <a href="view.html?file=03_Notebooks/M8_Spark_AIS.ipynb" class="card">
+      <a href="view.html?file=03_notebooks/m8_spark_ais.ipynb" class="card">
         <div class="card-icon">🔥</div>
         <div>
           <span class="badge badge-ipynb">Lab 8</span>
@@ -388,7 +393,7 @@
           <p>Instrucciones para configurar el entorno de análisis.</p>
         </div>
       </a>
-      <a href="view.html?file=04_Recursos/Manual_Python_Maritimo.md" class="card">
+      <a href="view.html?file=04_recursos/manual_python_maritimo.md" class="card">
         <div class="card-icon">🐍</div>
         <div>
           <span class="badge badge-md">Manual</span>
@@ -396,7 +401,7 @@
           <p>Librerías esenciales: Pandas, GeoPandas y Folium.</p>
         </div>
       </a>
-      <a href="view.html?file=04_Recursos/Glosario.md" class="card">
+      <a href="view.html?file=04_recursos/glosario.md" class="card">
         <div class="card-icon">📖</div>
         <div>
           <span class="badge badge-md">Glosario</span>
@@ -419,9 +424,10 @@
       <img src="Mapa_del_Curso.png" alt="Mapa del Curso Maestría Análisis de Datos">
     </div>
 
-    <footer>
-      <p>&copy; 2024 Jorge Centeno · Maestría en Análisis de Datos Marítimos</p>
-    </footer>
+    <footer style="margin-top: 80px; padding: 40px; text-align: center; border-top: 1px solid var(--border); color: var(--text-secondary); font-size: 14px;">
+    <p>© 2026 Dr. Carlos Rovetto - Maestría en Análisis de Datos</p>
+    <p style="margin-top: 10px; opacity: 0.5;">UMIP · Universidad Marítima Internacional de Panamá</p>
+  </footer>
   </div>
 </body>
 
