@@ -20,4 +20,4 @@ Este documento centraliza todos los retos prácticos de la maestría. Cada labor
 - Los Notebooks deben incluir conclusiones accionables (Análisis) no solo resultados numéricos (Reporte).
 
 ---
-[[Inicio|🏠 Volver al Inicio]]
+[[inicio|🏠 Volver al Inicio]]

@@ -199,7 +199,7 @@
     <div class="nav-group">
       <p class="nav-group-title">Recursos</p>
       <ul class="nav-links">
-        <li><a href="?file=Inicio.md" data-file="Inicio.md">Guía de Inicio</a></li>
+        <li><a href="?file=inicio.md" data-file="inicio.md">Guía de Inicio</a></li>
         <li><a href="?file=04_recursos/fuentes_de_datos.md" data-file="04_recursos/fuentes_de_datos.md">Fuentes de Datos</a></li>
         <li><a href="?file=04_recursos/glosario.md" data-file="04_recursos/glosario.md">Glosario</a></li>
         <li><a href="?file=04_recursos/manual_python_maritimo.md" data-file="04_recursos/manual_python_maritimo.md">Manual Python</a></li>
@@ -260,7 +260,7 @@
         // 2. Convertir WikiLinks [[File|Label]] a links del visor
         text = text.replace(/\[\[([^|\]]+)\|([^\]]+)\]\]/g, (match, targetFile, label) => {
           if (targetFile === 'Inicio') {
-            return `<a href="?file=Inicio.md" class="view-link">${label}</a>`;
+            return `<a href="?file=inicio.md" class="view-link">${label}</a>`;
           } else if (targetFile.startsWith('m') || targetFile.startsWith('M')) {
             // Manejar tanto m1 como M1_...
             const cleanTarget = targetFile.trim().toLowerCase();
