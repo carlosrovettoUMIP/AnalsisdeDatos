@@ -7,7 +7,7 @@ preparado_por: Jcenteno
 ---
 # Módulo 1 — Análisis de Datos vs Reportes
 
-[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jacenteno/jacenteno.github.io/blob/main/Analisis_Datos_Maritimo/03_Notebooks/M1_Analisis_Puerto.ipynb)
+[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlosrovettoUMIP/AnalsisdeDatos/blob/main/03_Notebooks/M1_Analisis_Puerto.ipynb)
 
 > [!info] Objetivo
 > Distinguir conceptualmente entre reportar e interpretar datos en el contexto del sector portuario panameño.
@@ -38,8 +38,8 @@ preparado_por: Jcenteno
 ---
 
 ## 📥 Recursos y Descargas
-- [📊 Descargar Dataset: atraques_balboa.csv](file:///Users/jorgecenteno/dev/jacenteno.github.io/Analisis_Datos_Maritimo/02_Datasets/atraques_balboa.csv)
-- [📓 Cuaderno en Formato Local: M1_Analisis_Puerto.ipynb](file:///Users/jorgecenteno/dev/jacenteno.github.io/Analisis_Datos_Maritimo/03_Notebooks/M1_Analisis_Puerto.ipynb)
+- [📊 Descargar Dataset: atraques_balboa.csv](02_Datasets/atraques_balboa.csv)
+- [📓 Cuaderno en Formato Local: M1_Analisis_Puerto.ipynb](03_Notebooks/M1_Analisis_Puerto.ipynb)
 
 ---
-[[Inicio|🏠 Volver al Inicio]] | [[M2_Proceso_Analisis|Siguiente Módulo ➡️]]
+[Inicio|🏠 Volver al Inicio] | [M2 Proceso_Analisis|Siguiente Módulo ➡️]

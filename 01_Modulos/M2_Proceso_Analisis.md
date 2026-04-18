@@ -7,7 +7,7 @@ preparado_por: Jcenteno
 ---
 # Módulo 2 — Proceso de Análisis de Datos
 
-[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jacenteno/jacenteno.github.io/blob/main/Analisis_Datos_Maritimo/03_Notebooks/M2_Limpieza_AIS.ipynb)
+[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlosrovettoUMIP/AnalsisdeDatos/blob/main/03_Notebooks/M2_Limpieza_AIS.ipynb)
 
 > [!info] Objetivo
 > Dominar las 5 fases del proceso analítico aplicadas a datos de señales AIS del Canal de Panamá.
@@ -41,8 +41,8 @@ graph LR
 ---
 
 ## 📥 Recursos y Descargas
-- [📊 Descargar Dataset: ais_muestra_canal.csv](file:///Users/jorgecenteno/dev/jacenteno.github.io/Analisis_Datos_Maritimo/02_Datasets/ais_muestra_canal.csv)
-- [📓 Cuaderno en Formato Local: M2_Limpieza_AIS.ipynb](file:///Users/jorgecenteno/dev/jacenteno.github.io/Analisis_Datos_Maritimo/03_Notebooks/M2_Limpieza_AIS.ipynb)
+- [📊 Descargar Dataset: ais_muestra_canal.csv](02_Datasets/ais_muestra_canal.csv)
+- [📓 Cuaderno en Formato Local: M2_Limpieza_AIS.ipynb](03_Notebooks/M2_Limpieza_AIS.ipynb)
 
 ---
-[[M1_Analisis_vs_Reportes|⬅️ Anterior]] | [[Inicio|🏠 Inicio]] | [[M3_Tipos_Analisis|Siguiente ➡️]]
+[M1 Analisis_vs_Reportes|⬅️ Anterior] | [Inicio|🏠 Inicio] | [M3 Tipos_Analisis|Siguiente ➡️]

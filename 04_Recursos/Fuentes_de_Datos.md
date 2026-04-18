@@ -19,4 +19,4 @@ Para profundizar en el análisis de datos marítimos, se recomiendan las siguien
 - **Google Colab**: Entorno de ejecución en la nube gratuito.
 
 ---
-[[Inicio|🏠 Volver al Inicio]]
+[Inicio|🏠 Volver al Inicio]

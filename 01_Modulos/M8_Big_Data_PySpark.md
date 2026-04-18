@@ -7,7 +7,7 @@ preparado_por: Jcenteno
 ---
 # Módulo 8 — Big Data Analytics
 
-[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jacenteno/jacenteno.github.io/blob/main/Analisis_Datos_Maritimo/03_Notebooks/M8_Spark_AIS.ipynb)
+[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlosrovettoUMIP/AnalsisdeDatos/blob/main/03_Notebooks/M8_Spark_AIS.ipynb)
 
 > [!info] Objetivo
 > Procesar volúmenes masivos de datos AIS con PySpark en el entorno de Google Colab.
@@ -30,8 +30,8 @@ preparado_por: Jcenteno
 ---
 
 ## 📥 Recursos y Descargas
-- [📊 Descargar Dataset: ais_muestra_canal.csv](file:///Users/jorgecenteno/dev/jacenteno.github.io/Analisis_Datos_Maritimo/02_Datasets/ais_muestra_canal.csv)
-- [📓 Cuaderno en Formato Local: M8_Spark_AIS.ipynb](file:///Users/jorgecenteno/dev/jacenteno.github.io/Analisis_Datos_Maritimo/03_Notebooks/M8_Spark_AIS.ipynb)
+- [📊 Descargar Dataset: ais_muestra_canal.csv](02_Datasets/ais_muestra_canal.csv)
+- [📓 Cuaderno en Formato Local: M8_Spark_AIS.ipynb](03_Notebooks/M8_Spark_AIS.ipynb)
 
 ---
-[[M7_Competencias|⬅️ Anterior]] | [[Inicio|🏠 Inicio]]
+[M7 Competencias|⬅️ Anterior] | [Inicio|🏠 Inicio]

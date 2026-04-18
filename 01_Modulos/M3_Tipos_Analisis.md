@@ -7,7 +7,7 @@ preparado_por: Jcenteno
 ---
 # Módulo 3 — Tipos de Análisis de Datos
 
-[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jacenteno/jacenteno.github.io/blob/main/Analisis_Datos_Maritimo/03_Notebooks/M3_Analisis_Corozal.ipynb)
+[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlosrovettoUMIP/AnalsisdeDatos/blob/main/03_Notebooks/M3_Analisis_Corozal.ipynb)
 
 > [!info] Objetivo
 > Aplicar los 4 tipos de análisis al dataset de operaciones de contenedores de Terminal Corozal.
@@ -37,8 +37,8 @@ preparado_por: Jcenteno
 ---
 
 ## 📥 Recursos y Descargas
-- [📊 Descargar Dataset: corozal_ops.csv](file:///Users/jorgecenteno/dev/jacenteno.github.io/Analisis_Datos_Maritimo/02_Datasets/corozal_ops.csv)
-- [📓 Cuaderno en Formato Local: M3_Analisis_Corozal.ipynb](file:///Users/jorgecenteno/dev/jacenteno.github.io/Analisis_Datos_Maritimo/03_Notebooks/M3_Analisis_Corozal.ipynb)
+- [📊 Descargar Dataset: corozal_ops.csv](02_Datasets/corozal_ops.csv)
+- [📓 Cuaderno en Formato Local: M3_Analisis_Corozal.ipynb](03_Notebooks/M3_Analisis_Corozal.ipynb)
 
 ---
-[[M2_Proceso_Analisis|⬅️ Anterior]] | [[Inicio|🏠 Inicio]] | [[M4_Mineria_Datos|Siguiente ➡️]]
+[M2 Proceso_Analisis|⬅️ Anterior] | [Inicio|🏠 Inicio] | [M4 Mineria_Datos|Siguiente ➡️]

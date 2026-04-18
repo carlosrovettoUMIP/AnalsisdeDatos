@@ -38,4 +38,4 @@ fig.show()
 ```
 
 ---
-[[Inicio|🏠 Volver al Inicio]]
+[Inicio|🏠 Volver al Inicio]

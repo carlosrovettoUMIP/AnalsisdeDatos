@@ -7,7 +7,7 @@ preparado_por: Jcenteno
 ---
 # Módulo 4 — Minería de Datos
 
-[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jacenteno/jacenteno.github.io/blob/main/Analisis_Datos_Maritimo/03_Notebooks/M4_Mineria_Flota.ipynb)
+[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlosrovettoUMIP/AnalsisdeDatos/blob/main/03_Notebooks/M4_Mineria_Flota.ipynb)
 
 > [!info] Objetivo
 > Aplicar técnicas de Machine Learning (clustering, clasificación, detección de anomalías) a datos de flota naviera.
@@ -35,8 +35,8 @@ preparado_por: Jcenteno
 ---
 
 ## 📥 Recursos y Descargas
-- [📊 Descargar Dataset: flota_historial.csv](file:///Users/jorgecenteno/dev/jacenteno.github.io/Analisis_Datos_Maritimo/02_Datasets/flota_historial.csv)
-- [📓 Cuaderno en Formato Local: M4_Mineria_Flota.ipynb](file:///Users/jorgecenteno/dev/jacenteno.github.io/Analisis_Datos_Maritimo/03_Notebooks/M4_Mineria_Flota.ipynb)
+- [📊 Descargar Dataset: flota_historial.csv](02_Datasets/flota_historial.csv)
+- [📓 Cuaderno en Formato Local: M4_Mineria_Flota.ipynb](03_Notebooks/M4_Mineria_Flota.ipynb)
 
 ---
-[[M3_Tipos_Analisis|⬅️ Anterior]] | [[Inicio|🏠 Inicio]] | [[M5_Calidad_Dato|Siguiente ➡️]]
+[M3 Tipos_Analisis|⬅️ Anterior] | [Inicio|🏠 Inicio] | [M5 Calidad_Dato|Siguiente ➡️]

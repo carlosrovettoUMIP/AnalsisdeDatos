@@ -7,7 +7,7 @@ preparado_por: Jcenteno
 ---
 # Módulo 7 — Competencias Requeridas
 
-[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jacenteno/jacenteno.github.io/blob/main/Analisis_Datos_Maritimo/03_Notebooks/M7_Proyecto_Final.ipynb)
+[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlosrovettoUMIP/AnalsisdeDatos/blob/main/03_Notebooks/M7_Proyecto_Final.ipynb)
 
 > [!info] Objetivo
 > Consolidar el stack técnico y las habilidades de comunicación del analista de datos marítimo.
@@ -29,8 +29,8 @@ preparado_por: Jcenteno
 ---
 
 ## 📥 Recursos y Descargas
-- [📊 Descargar Dataset: corozal_ops.csv](file:///Users/jorgecenteno/dev/jacenteno.github.io/Analisis_Datos_Maritimo/02_Datasets/corozal_ops.csv)
-- [📓 Cuaderno en Formato Local: M7_Proyecto_Final.ipynb](file:///Users/jorgecenteno/dev/jacenteno.github.io/Analisis_Datos_Maritimo/03_Notebooks/M7_Proyecto_Final.ipynb)
+- [📊 Descargar Dataset: corozal_ops.csv](02_Datasets/corozal_ops.csv)
+- [📓 Cuaderno en Formato Local: M7_Proyecto_Final.ipynb](03_Notebooks/M7_Proyecto_Final.ipynb)
 
 ---
-[[M6_Aplicaciones_CII|⬅️ Anterior]] | [[Inicio|🏠 Inicio]] | [[M8_Big_Data_PySpark|Siguiente ➡️]]
+[M6 Aplicaciones_CII|⬅️ Anterior] | [Inicio|🏠 Inicio] | [M8 Big_Data_PySpark|Siguiente ➡️]

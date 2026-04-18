@@ -243,6 +243,17 @@
       });
 
       try {
+        const response = await fetch(fileName);
+        if (!response.ok) throw new Error('No se pudo cargar el archivo');
+        let text = await response.text();
+
+        // 1. Manejar Frontmatter (eliminarlo si existe)
+        text = text.replace(/^---[\s\S]*?---/, '');
+
+        // 2. Convertir WikiLinks [[File|Label]] a links del visor
+        text = text.replace(/\[\[(M[0-9]_[^|\]]+)\|([^\]]+)\]\]/g, '[$2](view.html?file=01_Modulos/$1.md)');
+        text = text.replace(/\[\[Inicio\|([^\]]+)\]\]/g, '[$1](view.html?file=Inicio.md)');
+
         if (fileName.endsWith('.ipynb')) {
           const githubPath = 'carlosrovettoUMIP/AnalsisdeDatos/blob/main/' + fileName;
           contentDiv.innerHTML = `<h1>Notebook Jupyter</h1><p>Los archivos .ipynb son complejos para mostrar directamente. Haz clic abajo para verlo en el visor oficial:</p>
@@ -254,26 +265,28 @@
           return;
         }
 
-        const response = await fetch(fileName);
-        if (!response.ok) throw new Error('No se pudo cargar el archivo');
-        const text = await response.text();
-        
-        // Configurar marked para permitir HTML y manejar rutas de imágenes
+        // Configurar marked
         marked.setOptions({
           headerIds: true,
           gfm: true,
           breaks: true
         });
 
+        // 3. Renderizar Markdown
         contentDiv.innerHTML = marked.parse(text);
         
-        // Ajustar rutas de imágenes si es necesario
+        // 4. Corregir rutas de imágenes relativas
         contentDiv.querySelectorAll('img').forEach(img => {
           const src = img.getAttribute('src');
-          if (src && !src.startsWith('http')) {
-            // Si la imagen está en Archivos_Adjuntos, ajustar la ruta
-            // Por ahora asumimos que las rutas en el MD son relativas al archivo MD
-            // o a la raíz de la carpeta MaestriaAnalisisDatos
+          if (src && !src.startsWith('http') && !src.startsWith('/')) {
+            // Si el archivo está en una carpeta, las imágenes necesitan la ruta base
+            if (fileName.includes('/')) {
+              const folder = fileName.substring(0, fileName.lastIndexOf('/') + 1);
+              // Si la imagen ya apunta a Archivos_Adjuntos o Datasets, no tocar
+              if (!src.includes('Archivos_Adjuntos') && !src.includes('02_Datasets')) {
+                // img.src = folder + src; // Descomentar si se necesitan rutas relativas a la carpeta del MD
+              }
+            }
           }
         });
 

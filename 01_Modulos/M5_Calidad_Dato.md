@@ -7,7 +7,7 @@ preparado_por: Jcenteno
 ---
 # Módulo 5 — Características del Buen Dato
 
-[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jacenteno/jacenteno.github.io/blob/main/Analisis_Datos_Maritimo/03_Notebooks/M5_Auditoria_Calidad.ipynb)
+[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlosrovettoUMIP/AnalsisdeDatos/blob/main/03_Notebooks/M5_Auditoria_Calidad.ipynb)
 
 > [!info] Objetivo
 > Evaluar la calidad del dato en organizaciones portuarias y detectar sesgos en registros de banderas.
@@ -29,8 +29,8 @@ preparado_por: Jcenteno
 ---
 
 ## 📥 Recursos y Descargas
-- [📊 Descargar Dataset: lloyds_register.csv](file:///Users/jorgecenteno/dev/jacenteno.github.io/Analisis_Datos_Maritimo/02_Datasets/lloyds_register.csv)
-- [📓 Cuaderno en Formato Local: M5_Auditoria_Calidad.ipynb](file:///Users/jorgecenteno/dev/jacenteno.github.io/Analisis_Datos_Maritimo/03_Notebooks/M5_Auditoria_Calidad.ipynb)
+- [📊 Descargar Dataset: lloyds_register.csv](02_Datasets/lloyds_register.csv)
+- [📓 Cuaderno en Formato Local: M5_Auditoria_Calidad.ipynb](03_Notebooks/M5_Auditoria_Calidad.ipynb)
 
 ---
-[[M4_Mineria_Datos|⬅️ Anterior]] | [[Inicio|🏠 Inicio]] | [[M6_Aplicaciones_CII|Siguiente ➡️]]
+[M4 Mineria_Datos|⬅️ Anterior] | [Inicio|🏠 Inicio] | [M6 Aplicaciones_CII|Siguiente ➡️]
