@@ -86,9 +86,31 @@
       z-index: 1;
     }
 
-    header {
+    /* Hero Section */
+    .hero {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 40px;
+      padding: 80px 40px;
       text-align: center;
       margin-bottom: 60px;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.3);
+    }
+
+    .hero-img {
+      max-width: 600px;
+      width: 100%;
+      border-radius: 20px;
+      margin-top: 40px;
+      border: 1px solid var(--border);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 40px;
     }
 
     .back-link {
@@ -242,10 +264,14 @@
       </div>
     </nav>
     
-    <header>
-      <h1>Maestría Análisis de Datos Marítimos</h1>
-      <p class="subtitle">Recursos académicos, laboratorios y cuadernos de análisis de datos para el sector portuario y marítimo.</p>
-    </header>
+    <div class="hero">
+      <header>
+        <span class="badge badge-md" style="margin-bottom: 20px;">Maestría en Análisis de Datos</span>
+        <h1>Dr. Carlos Rovetto</h1>
+        <p class="subtitle">Portal Académico de Análisis de Datos Marítimos y Portuarios.</p>
+      </header>
+      <img src="Mapa_del_Curso.png" alt="Mapa del Curso" class="hero-img">
+    </div>
 
     <h2 class="section-title"><span></span> Módulos Académicos</h2>
     <div class="grid">
@@ -409,6 +435,14 @@
           <p>Diccionario de conceptos de datos y logística.</p>
         </div>
       </a>
+      <a href="view.html?file=04_recursos/fuentes_de_datos.md" class="card">
+        <div class="card-icon">🌐</div>
+        <div>
+          <span class="badge badge-md">Fuentes</span>
+          <h3>Fuentes de Datos</h3>
+          <p>Repositorios oficiales y datasets del sector marítimo.</p>
+        </div>
+      </a>
       <a href="Inicio.pdf" class="card">
         <div class="card-icon">📄</div>
         <div>
@@ -419,15 +453,10 @@
       </a>
     </div>
 
-    <div class="map-section">
-      <h2 class="section-title" style="justify-content: center;">Mapa del Curso</h2>
-      <img src="Mapa_del_Curso.png" alt="Mapa del Curso Maestría Análisis de Datos">
-    </div>
-
     <footer style="margin-top: 80px; padding: 40px; text-align: center; border-top: 1px solid var(--border); color: var(--text-secondary); font-size: 14px;">
-    <p>© 2026 Dr. Carlos Rovetto - Maestría en Análisis de Datos</p>
-    <p style="margin-top: 10px; opacity: 0.5;">UMIP · Universidad Marítima Internacional de Panamá</p>
-  </footer>
+      <p>© 2026 Dr. Carlos Rovetto - Maestría en Análisis de Datos</p>
+      <p style="margin-top: 10px; opacity: 0.5;">UMIP · Universidad Marítima Internacional de Panamá</p>
+    </footer>
   </div>
 </body>
 
