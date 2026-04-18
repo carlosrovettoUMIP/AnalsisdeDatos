@@ -270,12 +270,12 @@
         });
 
         if (fileName.endsWith('.ipynb')) {
-          const githubPath = 'carlosrovettoUMIP/AnalsisdeDatos/blob/main/' + fileName;
-          contentDiv.innerHTML = `<h1>Notebook Jupyter</h1><p>Los archivos .ipynb son complejos para mostrar directamente. Haz clic abajo para verlo en el visor oficial:</p>
-          <a href="https://nbviewer.org/github/${githubPath}" target="_blank" class="card" style="margin-top:20px; text-align:center; display:block; text-decoration:none;">
+          const rawPath = 'raw.githubusercontent.com/carlosrovettoUMIP/AnalsisdeDatos/main/' + fileName;
+          contentDiv.innerHTML = `<h1>Notebook Jupyter</h1><p>Los archivos .ipynb son complejos para mostrar directamente. Haz clic abajo para verlo en el visor oficial actualizado:</p>
+          <a href="https://nbviewer.org/urls/${rawPath}" target="_blank" class="card" style="margin-top:20px; text-align:center; display:block; text-decoration:none;">
             <div class="card-icon" style="margin: 0 auto 10px;">📓</div>
-            <h3 style="color:var(--accent-blue)">Abrir en NBViewer</h3>
-            <p>Ver cuaderno interactivo con todos los gráficos y código.</p>
+            <h3 style="color:var(--accent-blue)">Abrir en NBViewer (Versión Real)</h3>
+            <p>Ver cuaderno actualizado con todos los gráficos y código.</p>
           </a>`;
           return;
         }
