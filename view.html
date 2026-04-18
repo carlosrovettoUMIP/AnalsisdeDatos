@@ -236,27 +236,27 @@
         return;
       }
 
-      // Marcar link activo
+      // Marcar link activo en el sidebar
       document.querySelectorAll('.nav-links a').forEach(a => {
-        if (a.getAttribute('data-file') === fileName) a.classList.add('active');
+        const fileAttr = a.getAttribute('data-file');
+        if (fileAttr === fileName) a.classList.add('active');
         else a.classList.remove('active');
       });
 
       try {
         const response = await fetch(fileName);
-        if (!response.ok) throw new Error('No se pudo cargar el archivo');
+        if (!response.ok) throw new Error('No se pudo cargar el archivo: ' + fileName);
         let text = await response.text();
 
         // 1. Manejar Frontmatter (eliminarlo si existe)
         text = text.replace(/^---[\s\S]*?---/, '');
 
         // 2. Convertir WikiLinks [[File|Label]] a links del visor
-        // Soporta [[M1_Nombre|Label]], [[Inicio|Label]], etc.
-        text = text.replace(/\[\[([^|\]]+)\|([^\]]+)\]\]/g, (match, fileName, label) => {
-          if (fileName === 'Inicio') {
-            return `[${label}](view.html?file=Inicio.md)`;
-          } else if (fileName.startsWith('M')) {
-            return `[${label}](view.html?file=01_Modulos/${fileName}.md)`;
+        text = text.replace(/\[\[([^|\]]+)\|([^\]]+)\]\]/g, (match, targetFile, label) => {
+          if (targetFile === 'Inicio') {
+            return `<a href="?file=Inicio.md" class="view-link">${label}</a>`;
+          } else if (targetFile.startsWith('M')) {
+            return `<a href="?file=01_Modulos/${targetFile}.md" class="view-link">${label}</a>`;
           }
           return match;
         });
@@ -264,9 +264,9 @@
         if (fileName.endsWith('.ipynb')) {
           const githubPath = 'carlosrovettoUMIP/AnalsisdeDatos/blob/main/' + fileName;
           contentDiv.innerHTML = `<h1>Notebook Jupyter</h1><p>Los archivos .ipynb son complejos para mostrar directamente. Haz clic abajo para verlo en el visor oficial:</p>
-          <a href="https://nbviewer.org/github/${githubPath}" target="_blank" class="card" style="margin-top:20px; text-align:center; display:block;">
+          <a href="https://nbviewer.org/github/${githubPath}" target="_blank" class="card" style="margin-top:20px; text-align:center; display:block; text-decoration:none;">
             <div class="card-icon" style="margin: 0 auto 10px;">📓</div>
-            <h3>Abrir en NBViewer</h3>
+            <h3 style="color:var(--accent-blue)">Abrir en NBViewer</h3>
             <p>Ver cuaderno interactivo con todos los gráficos y código.</p>
           </a>`;
           return;
@@ -282,29 +282,28 @@
         // 3. Renderizar Markdown
         contentDiv.innerHTML = marked.parse(text);
         
-        // 4. Corregir rutas de imágenes relativas
-        contentDiv.querySelectorAll('img').forEach(img => {
-          const src = img.getAttribute('src');
-          if (src && !src.startsWith('http') && !src.startsWith('/')) {
-            // Si el archivo está en una carpeta, las imágenes necesitan la ruta base
-            if (fileName.includes('/')) {
-              const folder = fileName.substring(0, fileName.lastIndexOf('/') + 1);
-              // Si la imagen ya apunta a Archivos_Adjuntos o Datasets, no tocar
-              if (!src.includes('Archivos_Adjuntos') && !src.includes('02_Datasets')) {
-                // img.src = folder + src; // Descomentar si se necesitan rutas relativas a la carpeta del MD
-              }
-            }
+        // 4. Interceptar clics en los nuevos enlaces para navegación instantánea
+        contentDiv.querySelectorAll('a').forEach(link => {
+          if (link.href.includes('?file=')) {
+            link.addEventListener('click', (e) => {
+              e.preventDefault();
+              const newUrl = link.getAttribute('href');
+              window.history.pushState(null, '', newUrl);
+              loadContent();
+              window.scrollTo(0, 0);
+            });
           }
         });
 
       } catch (error) {
-        contentDiv.innerHTML = '<h1>Error</h1><p>No se pudo cargar el contenido: ' + fileName + '</p>';
+        contentDiv.innerHTML = '<h1>Error</h1><p>' + error.message + '</p>';
         console.error(error);
       }
     }
 
+    // Manejar el botón de atrás del navegador
+    window.addEventListener('popstate', loadContent);
     window.onload = loadContent;
-    window.onpopstate = loadContent; // Soporte para navegación atrás/adelante
   </script>
 </body>
 
